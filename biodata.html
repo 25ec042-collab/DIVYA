@@ -1,34 +1,98 @@
 <!DOCTYPE HTML>
 <html>
 <form>
+    <BODY>
+    <h1 align="center"> BIODATA FORM </h1>
+    <HR>
+    <style>
+      .buttons input {
+            background-color:rgb(38, 77, 100);
+            color: white;
+            border: none;
+            padding: 10px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+        
+        }
+    </style>
+    <table>
+       <tr>
+                <td>First Name:</td>
+                <td><input type="text" name="fullname" required></td>
+                <td></td>            
+              </tr>
+             <tr>
+                <td>Last Name:</td>
+                <td><input type="text" name="fullname" required></td>
+                <td></td> 
+            </tr>
+                <td>Date of Birth:</td>
+                <td><input type="date" name="dob" required></td>
+                <td></td> 
+            </tr>
 
-  <body>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="gender" value="Male"> Male<br>
+                    <input type="radio" name="gender" value="Female"> Female<br>
+                    <input type="radio" name="gender" value="Other"> Other
+                </td>
+                <td></td> 
+            </tr>
 
-    <head>BIODATA <br></head>
-    <hr>
+            <tr>
+                <td>Address:</td>
+                <td><textarea name="address" rows="3"></textarea></td>
+                <td> </td> 
+                <td> </td> 
+            </tr>
 
-    <label for="name1"> Name:</label>
-    <input type="text" id="name1" name="name1" required><BR>
-    <LABEL FOR="dob">D.O.B</LABEL>
-    <INPUT TYPE="DATE" ID="DOB" NAME="DOB"><br>
-    <LABEL FOR="FNAME">Father Name:</LABEL>
-    <input type="text" id="fname" name="fname"><br>
-    <label for="Addr">Address:</label>
-    <input type="text" id="addr" name="addr"><BR>
-    <label for="phone">Contact number:</label>
-    <INPUT type="NUMBER" ID="PHONE" NAME="PHONE"><br>
-    <label for="gen">Gender:</label>
-    <input type="radio" id="box1" name="box2" value="Male">
-    <label for="box2">Male</label>
-    <input type="radio" id="box2" name="box2" value="Female">
-    <label for="box2">Female</label>
-    <table border="1">
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="email"></td>
+                <td></td> 
+            </tr>
+
+            <tr>
+                <td>Phone Number:</td>
+                <td><input type="tel" name="phone"></td>
+                <td></td> 
+            </tr>
+
+            <tr>
+                <td>Skills:</td>
+                <td><input type="text" name="skills"></td>
+                <td></td> 
+            </tr>
+
+            <tr>
+                <td>Hobbies:</td>
+                <td><input type="text" name="hobbies"></td>
+                <td></td> 
+            </tr>
+
+            <tr>
+                <td>Languages Known:</td>
+                <td><input type="text" name="languages"></td>
+                <td></td> 
+            </tr>
+
+            <tr>
+                <td>Experience:</td>
+                <td><textarea name="experience" rows="3"></textarea></td>
+                <td></td> 
+            </tr>
+        </table>
+    </table>
+
+    <table border ="1" width="50%" >
       <TR>
         <th>EDUCATION</th>
         <TH>PLACE</TH>
         <TH>YEAR</TH>
       </TR>
-      <TR>
+      
         <TD>10 TH</TD>
         <td> </td>
         <td> </td>
@@ -43,8 +107,10 @@
         <td> </td>
         <td> </td>
       </TR>
-    </table>
+    </table><br><br>
+<div class="buttons">
 <input type="submit" value="Submit">
+</div>
 </body>
 </form>
 </html>
