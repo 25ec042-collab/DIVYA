@@ -1,116 +1,153 @@
+
 <!DOCTYPE HTML>
 <html>
-<form>
-    <BODY>
-    <h1 align="center"> BIODATA FORM </h1>
-    <HR>
-    <style>
-      .buttons input {
-            background-color:rgb(38, 77, 100);
-            color: white;
-            border: none;
-            padding: 10px 25px;
-            border-radius: 5px;
-            cursor: pointer;
+<head>
+<title>Biodata</title>
+
+<style>
+    body {
+        background-color: #bbcae0;
+    }   
+    .box {
+        text-align: left;
+        background-color: #fff;
+        padding: 20px 80px 40px 80px;
+        border-radius: 20px;
+        width: 700px;
+        box-shadow: 0px 0px 15px #ccc;
+        margin: auto;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 17px;
         
-        }
-    </style>
+    }
+
+    .title {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .section {
+        background: #b3c9eb;
+        padding: 8px;
+        font-weight: bold;
+        border-radius: 4px;
+        margin-top: 20px;
+    }
+
+    table {
+        width: 100%;
+    }
+</style>
+
+</head>
+<body>
+
+<div class="box">
+
+    <div class="title">BIODATA</div>
+    <hr><br>
+
+    <h3 CLASS = "section">Personal Information</h3>
+
     <table>
-       <tr>
-                <td>First Name:</td>
-                <td><input type="text" name="fullname" required></td>
-                <td></td>            
-              </tr>
-             <tr>
-                <td>Last Name:</td>
-                <td><input type="text" name="fullname" required></td>
-                <td></td> 
-            </tr>
-                <td>Date of Birth:</td>
-                <td><input type="date" name="dob" required></td>
-                <td></td> 
-            </tr>
+        <tr>
+            <td><b>Name</b></td>
+            <td>:</td>
+            <td>Divyasree M</td>
+        </tr>
 
-            <tr>
-                <td>Gender:</td>
-                <td>
-                    <input type="radio" name="gender" value="Male"> Male<br>
-                    <input type="radio" name="gender" value="Female"> Female<br>
-                    <input type="radio" name="gender" value="Other"> Other
-                </td>
-                <td></td> 
-            </tr>
+        <tr>
+            <td><b>Father Name</b></td>
+            <td>:</td>
+            <td>Mohan S</td>
+        </tr>
 
-            <tr>
-                <td>Address:</td>
-                <td><textarea name="address" rows="3"></textarea></td>
-                <td> </td> 
-                <td> </td> 
-            </tr>
+        <tr>
+            <td><b>Date of Birth</b></td>
+            <td>:</td>
+            <td>24.01.2008</td>
+        </tr>
 
-            <tr>
-                <td>Email:</td>
-                <td><input type="email" name="email"></td>
-                <td></td> 
-            </tr>
+        <tr>
+            <td><b>Gender</b></td>
+            <td>:</td>
+            <td>Female</td>
+        </tr>
 
-            <tr>
-                <td>Phone Number:</td>
-                <td><input type="tel" name="phone"></td>
-                <td></td> 
-            </tr>
+        <tr>
+            <td><b>Address</b></td>
+            <td>:</td>
+            <td>Gummidipoondi</td>
+        </tr>
 
-            <tr>
-                <td>Skills:</td>
-                <td><input type="text" name="skills"></td>
-                <td></td> 
-            </tr>
+        <tr>
+            <td><b>Email</b></td>
+            <td>:</td>
+            <td>25ec042@rmkec.ac.in</td>
+        </tr>
 
-            <tr>
-                <td>Hobbies:</td>
-                <td><input type="text" name="hobbies"></td>
-                <td></td> 
-            </tr>
-
-            <tr>
-                <td>Languages Known:</td>
-                <td><input type="text" name="languages"></td>
-                <td></td> 
-            </tr>
-
-            <tr>
-                <td>Experience:</td>
-                <td><textarea name="experience" rows="3"></textarea></td>
-                <td></td> 
-            </tr>
-        </table>
+        <tr>
+            <td><b>Phone Number</b></td>
+            <td>:</td>
+            <td>8xxxx xxxxx</td>
+        </tr>
     </table>
 
-    <table border ="1" width="50%" >
-      <TR>
-        <th>EDUCATION</th>
-        <TH>PLACE</TH>
-        <TH>YEAR</TH>
-      </TR>
-      
-        <TD>10 TH</TD>
-        <td> </td>
-        <td> </td>
-      </TR>
-      <TR>
-        <TD>12 TH</TD>
-        <td> </td>
-        <td> </td>
-      </TR>
-      <TR>
-        <TD>Degree </TD>
-        <td> </td>
-        <td> </td>
-      </TR>
-    </table><br><br>
-<div class="buttons">
-<input type="submit" value="Submit">
+    <br>
+
+    <div class="section">Educational Qualification</div>
+    <br>
+
+    <table border="1" cellspacing="0" cellpadding="5">
+        <tr>
+            <th>Degree/Grade</th>
+            <th>Institution/School</th>
+            <th>Year</th>
+            <th>Percentage/CGPA</th>
+        </tr>
+
+        <tr>
+            <td>B.E ECE</td>
+            <td>RMK Engineering College</td>
+            <td>2025-2029</td>
+            <td>CGPA</td>
+        </tr>
+
+        <tr>
+            <td>12th (CBSE)</td>
+            <td>The Velammal International School</td>
+            <td>2024-2025</td>
+            <td>90%</td>
+        </tr>
+
+        <tr>
+            <td>10th (CBSE)</td>
+            <td>Madanlal Khemani Vivekananda Vidyalaya</td>
+            <td>2022-2023</td>
+            <td>94%</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <div class="section">Additional</div>
+
+    <h4>Skills:</h4>
+    <ul>
+        <li>Basic C++ programming</li>
+        <li>HTML</li>
+        <li>Basic Excel</li>
+        <li>Git & GitHub</li>
+    </ul>
+
+    <h4>Languages Known:</h4>
+    <ul>
+        <li>English</li>
+        <li>Tamil</li>
+    </ul>
+
 </div>
+
 </body>
-</form>
 </html>
