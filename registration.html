@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+  <style>
+    body {
+      background-color: #d6e9ce;
+      font-family: Arial, sans-serif;
+    }
+    .box {
+        background-color: rgb(209, 236, 193);
+        padding: 20px 40px 40px 60px;
+        border-radius: 10px;
+        width: 200px;
+        margin: auto;
+        margin-top: 50px;
+        box-shadow: 0px 0px 10px #888888;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    }
+    .h{
+      font-size: medium;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box">
+    <h2>Registration Form</h2>
+    <hr>
+
+    <form>
+      <label>Name:</label><br>
+      <input type="text" name="firstname" placeholder="Enter Your Name" required><br><br>
+
+      <label>Email:</label><br>
+      <input type="email" name="email" placeholder="Enter Email Address" required><br><br>
+
+      <label>Password:</label><br>
+      <input type="password" name="password" placeholder="Create Password" required><br><br>
+
+<label>Gender :</label>
+    <select name="gender" required>
+        <option value="">Select Gender</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Other">Other</option>
+    </select>
+    <br><br>  
+
+      <label>Phone Number:</label><br>
+      <input type="tel" name="phone" placeholder="Enter Phone Number"><br><br> 
+
+      <input type="submit" value="Register">
+      <input type="reset" value="Clear">
+      
+    </form>
+  </div>
+</body>
+</html>
