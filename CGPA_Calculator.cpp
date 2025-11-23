@@ -1,5 +1,5 @@
 #include<iostream>
-#include<iomanip> // for setprecision
+#include<iomanip> 
 using namespace std;
 
 int main() {
